@@ -1,3 +1,4 @@
+```vb
 Option Explicit
 Private insertCell, insertRow, lastRow, pasteRow, copyRow As Range
 Private firstCol, checkCol, codeCol, i, j As Integer
@@ -103,3 +104,4 @@ Sub resetCF()
     Rng2.FormatConditions(1).StopIfTrue = False
 
 End Sub
+```
