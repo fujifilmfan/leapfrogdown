@@ -1,7 +1,7 @@
 leapfrogdown
 =============
 
-A VBA script for Excel that allows an arbitrary number of rows to be shifted downward to the next available blank row while 'leap frogging' over 'fixed' content.
+A VBA script for Excel that allows an arbitrary number of rows to be shifted downward to the next available blank row while 'leap frogging' over fixed content.
 
 MOTIVATION
 I use Excel workbooks to create a schedule of my daily lesson plans for the whole year.  One column of the schedule contains dates.  Other columns include things like warm-up activities, lesson content, homework, etc.  If I get ahead or behind by a period, I want to be able to shift future lessons up or down accordingly.  Each week is in a block, so simply inserting or deleting a row does not work.  In addtion, some items on the schedule (such as holidays, teacher in-service days, etc.) must remain fixed.  Copying and pasting dozens of periods at a time is tedious, and maintaining the variety of border formats and conditional formatting in the spreadsheet complicates things further.
